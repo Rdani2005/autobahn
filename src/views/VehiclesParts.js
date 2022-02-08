@@ -8,9 +8,6 @@ const VehiclesParts = () => {
     let recognize = require('../images/belt-drive.jpg')
     let vehicle = require('../images/hengsl.jpg')
 
-
-
-
     return (
         <main>
             <section className="vh-100 bg-4" >
@@ -52,12 +49,12 @@ const VehiclesParts = () => {
                     <div className="row">
                         <div className="col mt-5 ms-auto">
                             <h3>Contactanos por Email</h3>
-                            <ContactButton mail='true' contact='ricardo@grupoautobahn.com' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos' />
+                            <ContactButton mail='true' contact='ricardo@grupoautobahn.com' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos%20de%20automovil' />
 
                         </div>
                         <div className="col mt-5">
                             <h3>Contactanos por WhatsApp</h3>
-                            <ContactButton mail='false' contact='50660408440' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos%20Desde520tu%20Pagina%20web' />
+                            <ContactButton mail='false' contact='50660408440' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos%20de520automovilz' />
                             
                         </div>
                     </div>
