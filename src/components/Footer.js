@@ -1,6 +1,6 @@
 // Author Daniel Ricardo Sequeira Campos
 import React from 'react';
-
+import 'bootstrap-icons/font/bootstrap-icons.css'
 const Footer = () => {
     return (
         <footer className="bg-dark text-center text-white">
@@ -15,7 +15,7 @@ const Footer = () => {
                     </section>
                 </div>
                 <div className="text-center p-3" >
-                    © 2022 Copyright Danny Sequeira ©
+                    © 2022 Copyright Autobahn Costa Rica ©
                 </div>
             
         </footer>

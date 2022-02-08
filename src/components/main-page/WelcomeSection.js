@@ -16,7 +16,7 @@ const WelcomeSection = () => {
                         <h1 className="mt-4 text-uppercase text-center">
                             Taller y Distribuidores Oficiales
                         </h1>
-                        <p className="mt-4 display-6 text-justify">
+                        <p className="mt-4 h3 text-justify">
                             Como negocio nos encargamos de ofrecerles a nuestros clientes los mejores servicios, importando los repuestos necesarios, y dandole el mejor mantenimiento del pais a los vehiculos
                         </p>
                     </div>

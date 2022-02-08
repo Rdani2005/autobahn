@@ -15,7 +15,7 @@ const Vehicles = () => {
                             Nuestras Marcas
                         </h1>
                         <hr />
-                        <p className="mt-4 text-justify display-6">Actualmente trabajamos con vehiculos premium, ofreciendoles el mejor cuidado. Las marcas con las que trabajamos son BMW, Audi, y Mercedez Benz</p>
+                        <p className="mt-4 text-justify h3">Actualmente trabajamos con vehiculos premium, ofreciendoles el mejor cuidado. Las marcas con las que trabajamos son BMW, Audi, y Mercedez Benz</p>
                         <Link to="/taller" className="btn draw-border">
                             Ve mas en el Taller!
                         </Link>

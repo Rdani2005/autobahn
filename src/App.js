@@ -6,6 +6,7 @@ import React from 'react';
 // Views
 import MainPage from "./views/MainPage";
 import Error404 from "./views/Error404";
+import VehiclesParts from "./views/VehiclesParts"
 // Components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -16,7 +17,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/distribuidor" element={<MainPage />} />
+        <Route path="/distribuidor" element={<VehiclesParts />} />
         <Route path="/taller" element={<MainPage />} />
         <Route path="/contacto" element={<MainPage />} />
 

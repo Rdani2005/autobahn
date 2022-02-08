@@ -16,7 +16,7 @@ const Imports = () => {
                             Importaciones
                         </h1>
                         <hr />
-                        <p className="mt-4 text-justify display-6">Actualmente Nos encargamos de importar nuestros repuestos de grandes marcas comerciales para el mejor mantenimiento a nuestros vehiculos, y asi darle una mejor experiencia al cliente.</p>
+                        <p className="mt-4 text-justify h3">Actualmente Nos encargamos de importar nuestros repuestos de grandes marcas comerciales para el mejor mantenimiento a nuestros vehiculos, y asi darle una mejor experiencia al cliente.</p>
                         <Link to="/distribuidor" className="btn draw-border">
                             Ve nuestras importaciones!
                         </Link>
