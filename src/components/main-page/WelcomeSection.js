@@ -1,3 +1,4 @@
+// Author Daniel Ricardo Sequeira Campos
 // ------------------ Libraries --------------------------------
 import React from 'react';
 // ------------------ React Component --------------------------

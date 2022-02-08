@@ -1,3 +1,4 @@
+// Author Daniel Ricardo Sequeira Campos
 // ------------------ Libraries and Dependencies --------------------
 import React from 'react';
 import { NavLink } from 'react-router-dom'

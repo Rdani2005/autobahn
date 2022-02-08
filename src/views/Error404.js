@@ -1,3 +1,5 @@
+// Author Daniel Ricardo Sequeira Campos
+// TODO: Do this template view
 import React from 'react';
 
 const Error404 = () => {

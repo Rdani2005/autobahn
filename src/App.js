@@ -1,3 +1,4 @@
+// Author Daniel Ricardo Sequeira Campos
 // ------------------ Libraries --------------------------------
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
@@ -7,6 +8,7 @@ import MainPage from "./views/MainPage";
 import Error404 from "./views/Error404";
 // Components
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 // ------------------ React Component --------------------------
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
 
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
