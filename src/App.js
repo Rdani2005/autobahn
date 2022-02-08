@@ -7,6 +7,7 @@ import React from 'react';
 import MainPage from "./views/MainPage";
 import Error404 from "./views/Error404";
 import VehiclesParts from "./views/VehiclesParts"
+import DeployingPage from "./views/DeployingPage"
 // Components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -18,8 +19,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/distribuidor" element={<VehiclesParts />} />
-        <Route path="/taller" element={<MainPage />} />
-        <Route path="/contacto" element={<MainPage />} />
+        <Route path="/taller" element={<DeployingPage />} />
+        <Route path="/contacto" element={<DeployingPage />} />
 
         <Route path="*" element={<Error404 />} />
       </Routes>
