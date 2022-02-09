@@ -5,28 +5,37 @@ body, html {
 }
 
 .beggining {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(87, 87, 84, 0.7)), url('../images/main-image.jpg');
+    background: linear-gradient(#000000cc, #575754b3), url('../images/main-image.jpg');
 }
 
 .second {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(87, 87, 84, 0.7)), url('../images/taller-frente.jpg');
+    background: linear-gradient(#000000cc, #575754b3), url('../images/taller-frente.jpg');
 }
 
 .third {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(87, 87, 84, 0.7)), url('../images/taller-interno.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), #575754b3), url('../images/taller-interno.jpg');
 }
 
 .bg-4 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(80, 23, 32, 0.7)), url('../images/repuestos.jpg');
+    background: linear-gradient(to left, #000000cc, #501720b3), url('../images/repuestos.jpg');
 }
 
 .bg-5 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(80, 23, 32, 0.7)), url('../images/repuestos-detras.jpg');
+    background: linear-gradient(to right, #000000cc, #501720b3), url('../images/repuestos-detras.jpg');
+}
+
+.bg-6 {
+    background: linear-gradient(45deg,#800d09, #000000);
 }
 
 .beggining, .second, .third, .bg-4, .bg-5 {
     background-size: cover;
     background-position: center;
     color: #fff;
+}
+
+.btn-media {
+    background: none;
+    border:none;
 }
 

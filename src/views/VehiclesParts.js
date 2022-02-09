@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '../components/Cards'
-import ContactButton from '../components/ContactButton'
-
+//import ContactButton from '../components/ContactButton'
+import ContactForm from '../components/ContactForm'
 const VehiclesParts = () => {
 
     let oil = require('../images/Pentosin.jpg');
@@ -31,7 +31,7 @@ const VehiclesParts = () => {
 
             <section className="min-vh-100 bg-5" >
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <Cards imagen={oil} title="Mejores aceites del mercado costarricense" description="Nos compremetemos a brindar los mejores productos del mercado, por tal motivo usamos marcas reconocidas a nivel mundial" />
 
                         <Cards imagen={recognize} title="Mejores marcas a nivel Mundial" description="La mejor forma de garantizar el mejor servicio, está en ofrecer lo mejor que se pueda conseguir, por tal motivo trabajamos con marcas tales como Belt Drive Components, Hengsl, MAHLE, Pentosin." />
@@ -47,16 +47,7 @@ const VehiclesParts = () => {
                 </h1>
                 <div className="container">
                     <div className="row">
-                        <div className="col mt-5 ms-auto">
-                            <h3>Contactanos por Email</h3>
-                            <ContactButton mail='true' contact='ricardo@grupoautobahn.com' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos%20de%20automovil' />
-
-                        </div>
-                        <div className="col mt-5">
-                            <h3>Contactanos por WhatsApp</h3>
-                            <ContactButton mail='false' contact='50660408440' message='Estoy%20interesado%20en%20comprarte%20unos%20repuestos%20de520automovilz' />
-                            
-                        </div>
+                        <ContactForm/>
                     </div>
 
                 </div>

@@ -8,6 +8,8 @@ import MainPage from "./views/MainPage";
 import Error404 from "./views/Error404";
 import VehiclesParts from "./views/VehiclesParts"
 import DeployingPage from "./views/DeployingPage"
+import ContactPage from "./views/ContactPage"
+
 // Components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -20,8 +22,7 @@ const App = () => {
         <Route path="/" element={<MainPage />} />
         <Route path="/distribuidor" element={<VehiclesParts />} />
         <Route path="/taller" element={<DeployingPage />} />
-        <Route path="/contacto" element={<DeployingPage />} />
-
+        <Route path="/contacto" element={<ContactPage />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />

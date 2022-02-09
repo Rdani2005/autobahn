@@ -7,11 +7,9 @@ const Footer = () => {
 
                 <div className="container p-4">
                     <section className="mb-4">
-                        <a className="btn btn-primary btn-floating m-1" href="https://www.facebook.com/danny.sequeira.961/" role="button"><i className="bi bi-facebook"></i></a>
-                        <a className="btn btn-primary btn-floating m-1" href="https://twitter.com/rdani2005" role="button"><i className="bi bi-twitter"></i></a>
-                        <a className="btn btn-primary btn-floating m-1" href="https://www.instagram.com/rdani2005/" role="button"><i className="bi bi-instagram"></i></a>
-                        <a className="btn btn-primary btn-floating m-1" href="https://www.linkedin.com/in/rdani2005" role="button"><i className="bi bi-linkedin"></i></a>
-                        <a className="btn btn-primary btn-floating m-1" href="https://github.com/rdani2005" role="button"><i className="bi bi-github"></i></a>
+                        <a className="btn btn-primary btn-floating m-1 btn-media" href="https://www.facebook.com/danny.sequeira.961/" role="button"><i className="bi bi-facebook"></i></a>
+                        <a className="btn btn-primary btn-floating m-1 btn-media " href="https://twitter.com/rdani2005" role="button"><i className="bi bi-twitter"></i></a>
+                        <a className="btn btn-primary btn-floating m-1 btn-media " href="https://www.instagram.com/rdani2005/" role="button"><i className="bi bi-instagram"></i></a>
                     </section>
                 </div>
                 <div className="text-center p-3" >
