@@ -13,7 +13,7 @@ const Footer = () => {
                     </section>
                 </div>
                 <div className="text-center p-3" >
-                    © 2022 Copyright Autobahn Costa Rica ©
+                    © 2022 Copyright Autobahn Costa Rica
                 </div>
             
         </footer>

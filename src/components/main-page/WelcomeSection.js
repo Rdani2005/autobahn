@@ -5,7 +5,7 @@ import React from 'react';
 const WelcomeSection = () => {
       let logo = require('../../images/autobahn-logo.png');
     return (
-        <section className="vh-100 beggining">
+        <section className="min-vh-100 beggining">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 my-4">

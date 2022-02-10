@@ -10,7 +10,7 @@ const VehiclesParts = () => {
 
     return (
         <main>
-            <section className="vh-100 bg-4" >
+            <section className="min-vh-100 bg-4" >
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6 my-4">
@@ -41,7 +41,7 @@ const VehiclesParts = () => {
                     </div>
                 </div>
             </section>
-            <section className="vh-50 bg-dark text-white">
+            <section className="min-vh-50 bg-dark text-white">
                 <h1 className="display-1 text-center text-uppercase">
                     Contacto
                 </h1>

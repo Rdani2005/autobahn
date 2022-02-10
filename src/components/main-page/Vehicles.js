@@ -7,7 +7,7 @@ import '../../css/button.css'
 // ------------------ React Component --------------------------
 const Vehicles = () => {
     return (
-        <section className="vh-100 w-100 second">
+        <section className="min-vh-100 w-100 second">
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 my-4">
