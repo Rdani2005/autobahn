@@ -2,10 +2,11 @@
 // ------------------ Libraries and Dependencies --------------------
 import React from 'react';
 import { NavLink } from 'react-router-dom'
+// ----------------------- React Component -------------------------------
 const Header = () => {
-
+    // ------------------ Variables and Objects ---------------------------------------
     let logo = require('../images/autobahn-logo.png');
-
+    // ------------------ Rendering --------------------------------
     return (
         <header >
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">

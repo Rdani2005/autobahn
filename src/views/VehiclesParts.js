@@ -1,13 +1,15 @@
+// --------------------- Libraries -------------------------------------------
 import React from 'react';
+// --------------------- React Objects --------------------------------------
 import Cards from '../components/Cards'
-//import ContactButton from '../components/ContactButton'
-import ContactForm from '../components/ContactForm'
+import MainContactSection from '../components/ContactSection/MainContactSection';
+// ------------------------- React Component ---------------------------------------
 const VehiclesParts = () => {
-
+    // ------------------ Variables and Objects ---------------------------------------
     let oil = require('../images/Pentosin.jpg');
     let recognize = require('../images/belt-drive.jpg')
     let vehicle = require('../images/hengsl.jpg')
-
+    // ------------------ Rendering --------------------------------
     return (
         <main>
             <section className="min-vh-100 bg-4" >
@@ -47,7 +49,7 @@ const VehiclesParts = () => {
                 </h1>
                 <div className="container">
                     <div className="row">
-                        <ContactForm/>
+                        <MainContactSection />
                     </div>
 
                 </div>

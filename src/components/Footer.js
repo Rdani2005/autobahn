@@ -1,7 +1,11 @@
 // Author Daniel Ricardo Sequeira Campos
+// -------------------- Libraries ---------------------------------------
 import React from 'react';
+// --------------------- CSS --------------------------------
 import 'bootstrap-icons/font/bootstrap-icons.css'
+// ----------------------- React Component -------------------------------
 const Footer = () => {
+    // -------------------------- Rendering -----------------------------------
     return (
         <footer className="bg-dark text-center text-white">
 
