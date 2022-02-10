@@ -25,10 +25,10 @@ body, html {
 }
 
 .bg-6 {
-    background: linear-gradient(45deg,#800d09, #000000);
+    background: linear-gradient(70deg, #444242cc, #05022eb3), url('../images/taller-frente.jpg');
 }
 
-.beggining, .second, .third, .bg-4, .bg-5 {
+.beggining, .second, .third, .bg-4, .bg-5, .bg-6 {
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -39,3 +39,21 @@ body, html {
     border:none;
 }
 
+.curved {
+    border-radius: 2rem;
+}
+
+.bg-cristal {
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+}
+
+.bg-cristal:focus {
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+}
+
+.bg-cristal-dark {
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+}

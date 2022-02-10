@@ -1,6 +1,7 @@
 // Author Daniel Ricardo Sequeira Campos
 // ------------------ Libraries --------------------------------
 import React from 'react';
+import {Link} from 'react-router-dom'
 // ------------------ React Component --------------------------
 const WelcomeSection = () => {
       let logo = require('../../images/autobahn-logo.png');
@@ -16,9 +17,14 @@ const WelcomeSection = () => {
                         <h1 className="mt-4 text-uppercase text-center">
                             Taller y Distribuidores Oficiales
                         </h1>
+                        <hr />
                         <p className="mt-4 h3 text-justify">
                             Como negocio nos encargamos de ofrecerles a nuestros clientes los mejores servicios, importando los repuestos necesarios, y dandole el mejor mantenimiento del pais a los vehiculos
                         </p>
+                        <hr />
+                        <Link to="/contacto" className="btn draw-border">
+                            Contáctanos!
+                        </Link>
                     </div>
                 </div>
             </div>
