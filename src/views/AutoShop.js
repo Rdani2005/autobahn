@@ -1,12 +1,15 @@
+// Author Daniel Ricardo Sequeira Campos
+// --------------------------- Libraries ------------------------------------------
 import React from 'react'
-
+// --------------------------- React Objects -------------------------------------
 import CardSection from '../components/AutoShop/CardSection'
-
+// ------------------------- React Component ---------------------------------------
 const AutoShop = () => {
+    // ------------------ Variables and Objects ---------------------------------------
     let mec1 = require('../images/Mecanico1.jpg')
     let mec2 = require('../images/plataforma.jpg')
     let mec3 = require('../images/mecanico3.jpg')
-
+    // ------------------ Rendering --------------------------------
     return (
         <main className="beggining">
             <CardSection

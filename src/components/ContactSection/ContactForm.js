@@ -1,63 +1,22 @@
 // Author Daniel Ricardo Sequeira Campos
 // ----------------------- Libraries -----------------------------
 import React, { Component } from 'react'
-import axios from 'axios';
+import emailjs from "emailjs-com"
 // ----------------------- React Object ---------------------------------
 export default class ContactForm extends Component {
 
-    state = {
-        firstName: '',
-        lastName: '',
-        email: '',
-        phone: '',
-        vehicleId: '',
-        message: '',
-        sent: true
-    }
-
-    // -------------------- Handle Inputs ----------------------------------------------------
-    handleFirstName = e => {
-        this.setState({ firstName: e.target.value })
-    }
-
-    handleLastName = e => {
-        this.setState({ lastName: e.target.value })
-    }
-
-    handleEmail = e => {
-        this.setState({ email: e.target.value })
-    }
-
-    handlePhone = e => {
-        this.setState({ phone: e.target.value })
-    }
-
-    handlevehicleId = e => {
-        this.setState({ vehicleId: e.target.value })
-    }
-
-
-    handleMessage = e => {
-        this.setState({ message: e.target.value })
-    }
-
     // Form function Submit
-
     formSubmit = e => {
         e.preventDefault()
-        let data = {
-            firstName: this.state.firstName,
-            lastName: this.state.lastName,
-            email: this.state.email,
-            phone: this.state.phone,
-            vehicleId: this.state.vehicleId,
-            message: this.state.message
+        emailjs.sendForm(
+            'Autobahn-prueba',
+            'template_izfkr1h',
+            e.target,
+            "user_D92phdjjBDo78vfRkuCEJ"
+        ).then(res => {
+            console.log(res);
+        }).catch(err => console.log(err));
 
-        }
-
-        axios.post('/api/form', data)
-            .then(res => { this.setState({ sent: true }, this.resetForm()) })
-            .catch(() => { console.log("Message not sent") })
     }
 
     // -------------------- Rendering ---------------------------------------
@@ -75,36 +34,36 @@ export default class ContactForm extends Component {
                     <div className="col-md-6">
                         <label htmlFor="firstName" className="form-label">Nombre</label>
 
-                        <input type="text" id="firstName" className="form-control bg-cristal text-white" onChange={this.handleFirstName} required />
+                        <input type="text" name="firstName" id="firstName" className="form-control bg-cristal text-white" required />
                     </div>
                     <div className="col-md-6">
                         <label htmlFor="lastName" className="form-label">Apellido</label>
-                        <input type="text" className="form-control bg-cristal text-white" id="lastName" onChange={this.handleLastName} required />
+                        <input type="text" className="form-control bg-cristal text-white" name="lastName" id="lastName" required />
 
 
                     </div>
                     <div className="col-md-6">
                         <label htmlFor="email" className="form-label">Email</label>
-                        <input type="email" className="form-control bg-cristal text-white" id="email" onChange={this.handleEmail} required />
+                        <input type="email" className="form-control bg-cristal text-white" name="email" id="email" required />
 
 
                     </div>
                     <div className="col-md-6">
                         <label htmlFor="phone" className="form-label ">Teléfono</label>
-                        <input type="tel" className="form-control bg-cristal text-white" id="phone" onChange={this.handlePhone} required />
+                        <input type="tel" className="form-control bg-cristal text-white" name="phone" id="phone" required />
 
                     </div>
 
                     <div className="col-md-12">
                         <label htmlFor="vehicleId" className="form-label">Placa del vehiculo</label>
-                        <input type="text" id="vehicleId" className="form-control bg-cristal text-white" onChange={this.handlevehicleId} required />
+                        <input type="text" name="vehicleId" id="vehicleId" className="form-control bg-cristal text-white" required />
 
 
                     </div>
 
                     <div className="col-md-12">
                         <label htmlFor="message" className="form-label">Mensaje</label>
-                        <textarea className="form-control bg-cristal text-white" id="message" onChange={this.handleMessage} required />
+                        <textarea className="form-control bg-cristal text-white" name="message" id="message" required />
                     </div>
 
                     <div className="col-md-12">
@@ -115,4 +74,3 @@ export default class ContactForm extends Component {
         )
     }
 }
-

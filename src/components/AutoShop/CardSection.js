@@ -1,5 +1,7 @@
+// Author Daniel Ricardo Sequeira Campos
+// ----------------------- Libraries -----------------------------
 import React from 'react'
-
+// ----------------------- React Object ---------------------------------
 const CardSection = (props) => {
 
     if (props.type === "1") {
